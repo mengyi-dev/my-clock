@@ -36,7 +36,7 @@ export default {
     useHead({
       noscript: [
         {
-          children: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHDS4FC"
+          children: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSTT29SH"
           height="0" width="0" style="display:none;visibility:hidden"></iframe>`, body: true
         }
       ]
