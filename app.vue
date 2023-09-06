@@ -1,11 +1,11 @@
 <template>
   <div class="flex items-center justify-center h-screen">
     <h1 class="text-3xl font-bold md:text-[268px] text-[90px]">
-        <span class="bg-white/10 p-2 rounded-md">
+        <span class="bg-white/10 p-2 rounded-md" id='hours'>
           <span>{{hours}}</span>
         </span>
-        <span class="bg-white/10 p-2 rounded-md ml-2">{{minutes}}</span>
-        <span class="md:text-[50px] text-[30px] bg-white/10 p-2 rounded-md ml-2">{{seconds}}</span>
+        <span class="bg-white/10 p-2 rounded-md ml-2" id='minutes'>{{minutes}}</span>
+        <span class="md:text-[50px] text-[30px] bg-white/10 p-2 rounded-md ml-2" id='second'>{{seconds}}</span>
     </h1>
   </div>
 </template>
